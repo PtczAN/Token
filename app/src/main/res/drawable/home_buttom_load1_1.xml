@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/home_border2_2"/>
+    <item android:drawable="@drawable/home_border2_1" android:width="60dp" android:height="6dp" android:top="2dp"/>
+    <item android:drawable="@drawable/home_border2_1" android:width="60dp" android:height="6dp" android:top="15dp"/>
+    <item android:drawable="@drawable/home_border2_1" android:width="60dp" android:height="6dp" android:top="28dp"/>
+    <item android:drawable="@drawable/home_border2_1" android:width="60dp" android:height="6dp" android:top="41dp"/>
+    <item android:drawable="@drawable/home_border2_1" android:width="60dp" android:height="6dp" android:top="54dp"/>
+    <item android:drawable="@drawable/home_border2_1" android:width="60dp" android:height="6dp" android:top="67dp"/>
+    <item android:drawable="@drawable/home_border2_1" android:width="60dp" android:height="6dp" android:top="80dp"/>
+    <item android:drawable="@drawable/home_border2"/>
+    <item android:drawable="@drawable/download" android:width="20dp" android:height="20dp" android:gravity="center"/>
+</layer-list>

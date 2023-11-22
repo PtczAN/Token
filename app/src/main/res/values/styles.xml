@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="radius">
+        <item name="cornerSize">50dp</item>
+    </style>
+    <style name="radius2">
+        <item name="cornerSizeBottomLeft">100dp</item>
+        <item name="cornerSizeBottomRight">100dp</item>
+    </style>
+    <style name="radius3">
+        <item name="cornerSize">50dp</item>
+    </style>
+</resources>
