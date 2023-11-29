@@ -7,33 +7,20 @@
     android:background="@drawable/download__2_"
     tools:context=".Token">
 
-    <TextView
-        android:id="@+id/value_modS"
-        android:layout_width="50dp"
-        android:layout_height="45dp"
-        android:gravity="center"
-        android:textColor="@color/white"
-        android:textSize="50sp"
-        android:textStyle="italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.349"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.151" />
-
     <View
+        android:id="@+id/view14"
         android:layout_width="48dp"
         android:layout_height="45dp"
         android:background="@drawable/attributes_bg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.347"
+        app:layout_constraintHorizontal_bias="0.344"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.572" />
+        app:layout_constraintVertical_bias="0.569" />
 
     <View
+        android:id="@+id/view13"
         android:layout_width="48dp"
         android:layout_height="45dp"
         android:background="@drawable/attributes_bg"
@@ -57,6 +44,7 @@
         app:layout_constraintVertical_bias="0.120" />
 
     <View
+        android:id="@+id/view18"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@drawable/attributes_bg"
@@ -90,6 +78,7 @@
         app:layout_constraintVertical_bias="0.570" />
 
     <View
+        android:id="@+id/view15"
         android:layout_width="48dp"
         android:layout_height="45dp"
         android:background="@drawable/attributes_bg"
@@ -101,6 +90,7 @@
         app:layout_constraintVertical_bias="0.425" />
 
     <View
+        android:id="@+id/view16"
         android:layout_width="48dp"
         android:layout_height="45dp"
         android:background="@drawable/attributes_bg"
@@ -112,6 +102,7 @@
         app:layout_constraintVertical_bias="0.715" />
 
     <View
+        android:id="@+id/view17"
         android:layout_width="48dp"
         android:layout_height="45dp"
         android:background="@drawable/attributes_bg"
@@ -123,6 +114,7 @@
         app:layout_constraintVertical_bias="0.287" />
 
     <View
+        android:id="@+id/view19"
         android:layout_width="48dp"
         android:layout_height="45dp"
         android:background="@drawable/attributes_bg"
@@ -134,6 +126,7 @@
         app:layout_constraintVertical_bias="0.151" />
 
     <View
+        android:id="@+id/view20"
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:background="@drawable/attributes_bg"
@@ -408,14 +401,14 @@
         android:layout_height="46dp"
         android:gravity="center"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="34sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintHorizontal_bias="0.346"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.861" />
+        app:layout_constraintVertical_bias="0.858" />
 
     <TextView
         android:id="@+id/value_modW"
@@ -423,14 +416,14 @@
         android:layout_height="45dp"
         android:gravity="center"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="34sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.349"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.716" />
+        app:layout_constraintVertical_bias="0.715" />
 
     <TextView
         android:id="@+id/value_modC"
@@ -438,11 +431,11 @@
         android:layout_height="45dp"
         android:gravity="center"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="34sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.287" />
@@ -453,14 +446,14 @@
         android:layout_height="45dp"
         android:gravity="center"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="34sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.425" />
+        app:layout_constraintVertical_bias="0.568" />
 
     <TextView
         android:id="@+id/value_modD"
@@ -468,14 +461,29 @@
         android:layout_height="45dp"
         android:gravity="center"
         android:textColor="@color/white"
-        android:textSize="50sp"
+        android:textSize="34sp"
         android:textStyle="italic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.349"
+        app:layout_constraintHorizontal_bias="0.34"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.425" />
+
+    <TextView
+        android:id="@+id/value_modS"
+        android:layout_width="50dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.151" />
 
     <TextView
         android:id="@+id/life"
@@ -506,6 +514,7 @@
         app:srcCompat="@drawable/healthcare" />
 
     <View
+        android:id="@+id/view4"
         android:layout_width="1dp"
         android:layout_height="80dp"
         android:background="#DDB1926B"
@@ -651,7 +660,6 @@
         android:layout_marginStart="154dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="70dp"
-        android:layout_marginBottom="17dp"
         android:background="@drawable/attributes_bg"
         android:onClick="inicio"
         android:text="Home"
@@ -659,8 +667,10 @@
         android:textColorLink="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/save"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/value_modCH" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.967" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/dice"
@@ -674,8 +684,10 @@
         android:text="Dice"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/inicio"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/value_cha" />
+        app:layout_constraintTop_toBottomOf="@+id/value_cha"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -12,20 +12,11 @@ import java.util.Random;
 
 public class Dice extends AppCompatActivity {
 
-    public Button B_d4, B_d6, B_d8, B_d10, B_d12, B_d20, B_d100;
     public TextView R_d4, R_d6, R_d8, R_d10, R_d12, R_d20, R_d100;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dice);
-
-        B_d4 = findViewById(R.id.d4);
-        B_d6 = findViewById(R.id.d6);
-        B_d8 = findViewById(R.id.d8);
-        B_d10 = findViewById(R.id.d10);
-        B_d12 = findViewById(R.id.d12);
-        B_d20 = findViewById(R.id.d20);
-        B_d100 = findViewById(R.id.d100);
 
         R_d4 = findViewById(R.id.v_d4);
         R_d6 = findViewById(R.id.v_d6);
@@ -40,6 +31,7 @@ public class Dice extends AppCompatActivity {
         int d4;
         d4 = new Random().nextInt(4) + 1;
         R_d4.setText(Integer.toString(d4));
+
     }
     public void D6(View view){
         int d6;
