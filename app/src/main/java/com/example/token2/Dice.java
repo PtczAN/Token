@@ -34,60 +34,43 @@ public class Dice extends AppCompatActivity {
         R_d12 = findViewById(R.id.v_d12);
         R_d20 = findViewById(R.id.v_d20);
         R_d100 = findViewById(R.id.v_d100);
-        //TextView valueR_d4 = findViewById(R.id.v_d4);
-        //valueR_d4.setText(Integer.toString(str.getAmount()));
-        //TextView valueCon = findViewById(R.id.value_con);
-        //valueCon.setText(Integer.toString(con.getAmount()));
-        //TextView valueDex = findViewById(R.id.value_dex);
-        //valueDex.setText(Integer.toString(dex.getAmount()));
-        //TextView valueInt = findViewById(R.id.value_int);
-        //valueInt.setText(Integer.toString(int2.getAmount()));
-        //TextView valueWis = findViewById(R.id.value_wis);
-        //valueWis.setText(Integer.toString(wis.getAmount()));
-        //TextView valueCha = findViewById(R.id.value_cha);
-        //valueCha.setText(Integer.toString(cha.getAmount()));
-
-
-        B_d4.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                R_d4.setText(new Random().nextInt(4) + 1);
-            }
-        });
-        B_d6.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                R_d6.setText(new Random().nextInt(6) + 1);
-            }
-        });
-        B_d8.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                R_d8.setText(new Random().nextInt(8) + 1);
-            }
-        });
-        B_d10.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                R_d10.setText(new Random().nextInt(10) + 1);
-            }
-        });
-        B_d12.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                R_d12.setText(new Random().nextInt(12) + 1);
-            }
-        });
-        B_d20.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                R_d20.setText(new Random().nextInt(20) + 1);
-            }
-        });
 
     }
-       // public void D100(View view){
-       //     v_d100.setText(new Random().nextInt(100)+1); }
+    public void D4(View view){
+        int d4;
+        d4 = new Random().nextInt(4) + 1;
+        R_d4.setText(Integer.toString(d4));
+    }
+    public void D6(View view){
+        int d6;
+        d6 = new Random().nextInt(6) + 1;
+        R_d6.setText(Integer.toString(d6));
+    }
+    public void D8(View view){
+        int d8;
+        d8 = new Random().nextInt(8) + 1;
+        R_d8.setText(Integer.toString(d8));
+    }
+    public void D10(View view){
+        int d10;
+        d10 = new Random().nextInt(10) + 1;
+        R_d10.setText(Integer.toString(d10));
+    }
+    public void D12(View view){
+        int d12;
+        d12 = new Random().nextInt(12) + 1;
+        R_d12.setText(Integer.toString(d12));
+    }
+    public void D20(View view){
+        int d20;
+        d20 = new Random().nextInt(20) + 1;
+        R_d20.setText(Integer.toString(d20));
+    }
+        public void D100(View view){
+           int x;
+           x = new Random().nextInt(100) + 1;
+            R_d100.setText(Integer.toString(x));
+    }
     public void inicio2(View view){
         Intent intent = new Intent(Dice.this, Home.class);
         startActivity(intent);

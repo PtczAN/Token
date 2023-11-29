@@ -17,4 +17,20 @@ public class Book extends AppCompatActivity {
         Intent intent = new Intent(Book.this, Home.class);
         startActivity(intent);
     }
+    public void abrirHttp( View view ) {
+        Intent intent = new Intent( this, HttpActivity.class);
+        startActivity( intent );
+
+    }
+    public void abrirHttp2( View view ) {
+        Intent intent = new Intent( this, HttpActivity2.class);
+        startActivity( intent );
+
+    }
+    public void abrirHttp3( View view ) {
+        Intent intent = new Intent( this, HttpActivity3.class);
+        startActivity( intent );
+
+    }
+
 }

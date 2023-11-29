@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download__2_"
+    tools:context=".MAttack">
+
+    <Button
+        android:id="@+id/level_19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="11dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/level_22"
+        app:layout_constraintStart_toStartOf="@+id/level_25"
+        app:layout_constraintTop_toBottomOf="@+id/level_25" />
+
+    <Button
+        android:id="@+id/level_20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="9dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/level_24"
+        app:layout_constraintStart_toStartOf="@+id/level_23"
+        app:layout_constraintTop_toBottomOf="@+id/level_23" />
+
+    <Button
+        android:id="@+id/level_21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="13dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/semlevel4"
+        app:layout_constraintStart_toStartOf="@+id/semlevel4"
+        app:layout_constraintTop_toBottomOf="@+id/level_22" />
+
+    <Button
+        android:id="@+id/level_22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/level_21"
+        app:layout_constraintStart_toStartOf="@+id/level_21"
+        app:layout_constraintTop_toBottomOf="@+id/level_19" />
+
+    <Button
+        android:id="@+id/level_23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/level_20"
+        app:layout_constraintStart_toStartOf="@+id/level_26"
+        app:layout_constraintTop_toBottomOf="@+id/level_26" />
+
+    <Button
+        android:id="@+id/level_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="3dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/level_25"
+        app:layout_constraintStart_toStartOf="@+id/level_20"
+        app:layout_constraintTop_toBottomOf="@+id/level_20" />
+
+    <Button
+        android:id="@+id/level_25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/level_19"
+        app:layout_constraintStart_toStartOf="@+id/level_24"
+        app:layout_constraintTop_toBottomOf="@+id/level_24" />
+
+    <Button
+        android:id="@+id/semlevel4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/level_21" />
+
+    <Button
+        android:id="@+id/level_26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/level_23"
+        app:layout_constraintStart_toStartOf="@+id/level_27"
+        app:layout_constraintTop_toBottomOf="@+id/level_27" />
+
+    <Button
+        android:id="@+id/level_27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="18dp"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/level_26"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
