@@ -11,58 +11,62 @@
         android:id="@+id/inicio6"
         android:layout_width="99dp"
         android:layout_height="53dp"
-        android:layout_marginStart="156dp"
-        android:layout_marginTop="32dp"
-        android:layout_marginBottom="32dp"
         android:background="@drawable/attributes_bg"
         android:onClick="inicio6"
         android:text="Home"
         android:textColorHighlight="#FF9800"
         android:textColorLink="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
-    />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.911" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/attack2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginBottom="540dp"
         android:background="@drawable/attributes_bg"
         android:onClick="attack2"
         android:text="Attack"
         android:textColorHighlight="#FF9800"
         android:textColorLink="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.216" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/defense2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginBottom="448dp"
         android:background="@drawable/attributes_bg"
         android:onClick="defense2"
         android:text="Defense"
         android:textColorHighlight="#FF9800"
         android:textColorLink="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.352" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/support2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="92dp"
-        android:layout_marginBottom="360dp"
         android:background="@drawable/attributes_bg"
         android:onClick="support2"
         android:text="Support"
         android:textColorHighlight="#FF9800"
         android:textColorLink="#FF9800"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
